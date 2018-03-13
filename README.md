@@ -1,5 +1,9 @@
 # react-native-audio-streamer
 
+*** This is a newer version to handle React Native Header Change ***
+
+
+
 A react-native audio streaming module which works on both iOS & Android
 
 iOS streaming is based on [DOUAudioStreamer](https://github.com/douban/DOUAudioStreamer)
@@ -13,6 +17,10 @@ Android streaming is based on [ExoPlayer](https://github.com/google/ExoPlayer)
 Then run the following command to link to iOS & Android project
 
 `react-native link react-native-audio-streamer`
+
+** For react-native version < 0.40.0 install react-native-audio-streamer@0.0.9 **
+
+`npm install react-native-audio-streamer@0.0.9 --save`
 
 ## Usage
 
@@ -75,4 +83,3 @@ _statusChanged(status) {
 
 - Audio caching
 - Buffering ratio
-
